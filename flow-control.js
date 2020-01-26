@@ -5,7 +5,7 @@ function basicTeenager(age) {
 }
 
 function teenager(age) {
-  if (age > 13 && age < 19) {
+  if (13 <= (age) && (age) <= 19) {
     return "You are a teenager!";
   } else {
     return "You are not a teenager";
@@ -15,7 +15,7 @@ function teenager(age) {
 function ageChecker(age) {
   if (age <= 12) {
     return "You are a kid";
-  } else if (age > 13 && age < 19) {
+  } else if (13 <= (age) && (age) <= 19) {
     return "You are a teenager!";
   } else {
     return "You are a grownup";
@@ -23,7 +23,7 @@ function ageChecker(age) {
 }
 
 function ternaryTeenager(age) {
-  return age > 13 && age < 19 ? "You are a teenager" : "You are not a teenager";
+  return (13 <= (age) && (age) <= 19) ? "You are a teenager" : "You are not a teenager";
 }
 
 function switchAge(age) {
